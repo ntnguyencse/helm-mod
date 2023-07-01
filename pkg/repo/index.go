@@ -30,11 +30,11 @@ import (
 	"github.com/pkg/errors"
 	"sigs.k8s.io/yaml"
 
-	"helm.sh/helm/v3/internal/fileutil"
-	"helm.sh/helm/v3/internal/urlutil"
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chart/loader"
-	"helm.sh/helm/v3/pkg/provenance"
+	"github.com/ntnguyencse/helm/internal/fileutil"
+	"github.com/ntnguyencse/helm/internal/urlutil"
+	"github.com/ntnguyencse/helm/pkg/chart"
+	"github.com/ntnguyencse/helm/pkg/chart/loader"
+	"github.com/ntnguyencse/helm/pkg/provenance"
 )
 
 var indexPath = "index.yaml"

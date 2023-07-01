@@ -2,7 +2,7 @@
 
 [![Build Status](https://github.com/helm/helm/workflows/release/badge.svg)](https://github.com/helm/helm/actions?workflow=release)
 [![Go Report Card](https://goreportcard.com/badge/github.com/helm/helm)](https://goreportcard.com/report/github.com/helm/helm)
-[![GoDoc](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://pkg.go.dev/helm.sh/helm/v3)
+[![GoDoc](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://pkg.go.dev/github.com/ntnguyencse/helm)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/3131/badge)](https://bestpractices.coreinfrastructure.org/projects/3131)
 
 Helm is a tool for managing Charts. Charts are packages of pre-configured Kubernetes resources.

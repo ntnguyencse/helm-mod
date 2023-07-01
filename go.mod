@@ -1,4 +1,4 @@
-module helm.sh/helm/v3
+module github.com/ntnguyencse/helm
 
 go 1.19
 

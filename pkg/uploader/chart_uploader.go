@@ -22,8 +22,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"helm.sh/helm/v3/pkg/pusher"
-	"helm.sh/helm/v3/pkg/registry"
+	"github.com/ntnguyencse/helm/pkg/pusher"
+	"github.com/ntnguyencse/helm/pkg/registry"
 )
 
 // ChartUploader handles uploading a chart.

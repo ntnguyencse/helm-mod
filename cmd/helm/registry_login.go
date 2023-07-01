@@ -27,8 +27,8 @@ import (
 	"github.com/moby/term"
 	"github.com/spf13/cobra"
 
-	"helm.sh/helm/v3/cmd/helm/require"
-	"helm.sh/helm/v3/pkg/action"
+	"github.com/ntnguyencse/helm/cmd/helm/require"
+	"github.com/ntnguyencse/helm/pkg/action"
 )
 
 const registryLoginDesc = `

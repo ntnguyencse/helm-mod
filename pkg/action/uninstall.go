@@ -23,11 +23,11 @@ import (
 	"github.com/pkg/errors"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/kube"
-	"helm.sh/helm/v3/pkg/release"
-	"helm.sh/helm/v3/pkg/releaseutil"
-	helmtime "helm.sh/helm/v3/pkg/time"
+	"github.com/ntnguyencse/helm/pkg/chartutil"
+	"github.com/ntnguyencse/helm/pkg/kube"
+	"github.com/ntnguyencse/helm/pkg/release"
+	"github.com/ntnguyencse/helm/pkg/releaseutil"
+	helmtime "github.com/ntnguyencse/helm/pkg/time"
 )
 
 // Uninstall is the action for uninstalling releases.

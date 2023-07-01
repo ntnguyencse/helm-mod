@@ -17,7 +17,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"helm.sh/helm/v3/pkg/helmpath/xdg"
+	"github.com/ntnguyencse/helm/pkg/helmpath/xdg"
 )
 
 const (

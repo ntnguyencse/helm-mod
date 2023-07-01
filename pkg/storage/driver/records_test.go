@@ -14,13 +14,13 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package driver // import "helm.sh/helm/v3/pkg/storage/driver"
+package driver // import "github.com/ntnguyencse/helm/pkg/storage/driver"
 
 import (
 	"reflect"
 	"testing"
 
-	rspb "helm.sh/helm/v3/pkg/release"
+	rspb "github.com/ntnguyencse/helm/pkg/release"
 )
 
 func TestRecordsAdd(t *testing.T) {

@@ -19,8 +19,8 @@ import (
 	"runtime"
 	"testing"
 
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/registry"
+	"github.com/ntnguyencse/helm/pkg/chart"
+	"github.com/ntnguyencse/helm/pkg/registry"
 )
 
 func TestResolve(t *testing.T) {

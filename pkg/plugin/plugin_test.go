@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package plugin // import "helm.sh/helm/v3/pkg/plugin"
+package plugin // import "github.com/ntnguyencse/helm/pkg/plugin"
 
 import (
 	"fmt"
@@ -23,7 +23,7 @@ import (
 	"runtime"
 	"testing"
 
-	"helm.sh/helm/v3/pkg/cli"
+	"github.com/ntnguyencse/helm/pkg/cli"
 )
 
 func checkCommand(p *Plugin, extraArgs []string, osStrCmp string, t *testing.T) {

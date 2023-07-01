@@ -28,11 +28,11 @@ import (
 
 	"k8s.io/kubectl/pkg/cmd/get"
 
-	"helm.sh/helm/v3/cmd/helm/require"
-	"helm.sh/helm/v3/pkg/action"
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/cli/output"
-	"helm.sh/helm/v3/pkg/release"
+	"github.com/ntnguyencse/helm/cmd/helm/require"
+	"github.com/ntnguyencse/helm/pkg/action"
+	"github.com/ntnguyencse/helm/pkg/chartutil"
+	"github.com/ntnguyencse/helm/pkg/cli/output"
+	"github.com/ntnguyencse/helm/pkg/release"
 )
 
 // NOTE: Keep the list of statuses up-to-date with pkg/release/status.go.
