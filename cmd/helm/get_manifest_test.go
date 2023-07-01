@@ -19,7 +19,7 @@ package main
 import (
 	"testing"
 
-	"helm.sh/helm/v3/pkg/release"
+	"github.com/ntnguyencse/helm/pkg/release"
 )
 
 func TestGetManifest(t *testing.T) {

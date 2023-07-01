@@ -14,14 +14,14 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package releaseutil // import "helm.sh/helm/v3/pkg/releaseutil"
+package releaseutil // import "github.com/ntnguyencse/helm/pkg/releaseutil"
 
 import (
 	"testing"
 	"time"
 
-	rspb "helm.sh/helm/v3/pkg/release"
-	helmtime "helm.sh/helm/v3/pkg/time"
+	rspb "github.com/ntnguyencse/helm/pkg/release"
+	helmtime "github.com/ntnguyencse/helm/pkg/time"
 )
 
 // note: this test data is shared with filter_test.go.
