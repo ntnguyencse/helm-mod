@@ -8,17 +8,21 @@ import (
 	"github.com/ntnguyencse/helm/pkg/cli"
 	"github.com/ntnguyencse/helm/pkg/kube"
 	"github.com/spf13/cobra"
+	"k8s.io/cli-runtime/pkg/genericclioptions"
 )
 
 const LKaaSManagedFieldsManager = "helm-l-kaas-automation"
 
 func ApplyHelmWrapper(kubeconfig string, chartpath string, debugFlag bool, options []string) error {
-
+	_, _, outbuff, _ := genericclioptions.NewTestIOStreams()
+	// Create new Custom Envs with kubeconfig and debug flag
 	cli.NewCustomEnvs(kubeconfig, debugFlag)
 	log.SetFlags(log.Lshortfile)
+	// Store args of Helm command
+	var helmArgs []string
 	kube.ManagedFieldsManager = LKaaSManagedFieldsManager
 	actionConfig := new(action.Configuration)
-	cmd, err := newRootCmd(actionConfig, os.Stdout, os.Args[1:])
+	cmd, err := newRootCmd(actionConfig, outbuff, helmArgs)
 	if err != nil {
 		warning("%+v", err)
 		os.Exit(1)
@@ -34,7 +38,6 @@ func ApplyHelmWrapper(kubeconfig string, chartpath string, debugFlag bool, optio
 			loadReleasesInMemory(actionConfig)
 		}
 	})
-
 
 	if err := cmd.Execute(); err != nil {
 		debug("%+v", err)
