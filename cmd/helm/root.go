@@ -34,7 +34,7 @@ import (
 	"github.com/ntnguyencse/helm/pkg/repo"
 )
 
-var globalUsage = `The Kubernetes package manager
+var GlobalUsage = `The Kubernetes package manager
 
 Common actions for Helm:
 
@@ -90,7 +90,7 @@ func newRootCmd(actionConfig *action.Configuration, out io.Writer, args []string
 	cmd := &cobra.Command{
 		Use:          "helm",
 		Short:        "The Helm package manager for Kubernetes.",
-		Long:         globalUsage,
+		Long:         GlobalUsage,
 		SilenceUsage: true,
 	}
 	flags := cmd.PersistentFlags()
