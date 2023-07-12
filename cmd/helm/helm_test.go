@@ -170,7 +170,7 @@ func TestPluginExitCode(t *testing.T) {
 		os.Args = []string{"helm", "exitwith", "2"}
 
 		// We DO call helm's main() here. So this looks like a normal `helm` process.
-		main()
+		test_main()
 
 		// As main calls os.Exit, we never reach this line.
 		// But the test called this block of code catches and verifies the exit code.
