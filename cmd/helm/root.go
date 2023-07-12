@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package main // import "github.com/ntnguyencse/helm/cmd/helm"
+package helm // import "github.com/ntnguyencse/helm/cmd/helm"
 
 import (
 	"context"
