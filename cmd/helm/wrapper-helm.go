@@ -99,5 +99,6 @@ func ApplyHelmWrapper(kubeconfig string, chartpath string, debugFlag bool, dryRu
 		}
 	}
 	fmt.Println("Not Error when execute")
+	fmt.Println("Output:", string(outbuff.Bytes()))
 	return nil
 }
