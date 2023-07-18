@@ -122,8 +122,15 @@ To see the list of chart repositories, use 'helm repo list'. To search for
 charts in a repository, use 'helm search'.
 `
 
+func CustomNewInstallCmd(cfg *action.Configuration, action *action.Install, option *values.Options, flags *pflag.FlagSet) *cobra.Command {
+	cmd := cobra.Command{}
+	return &cmd
+}
 func newInstallCmd(cfg *action.Configuration, out io.Writer) *cobra.Command {
+	fmt.Println("New Install command")
+	fmt.Println("Print cfg", cfg)
 	client := action.NewInstall(cfg)
+	fmt.Println("Created Install client")
 	valueOpts := &values.Options{}
 	var outfmt output.Format
 
