@@ -5,9 +5,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/ntnguyencse/helm/pkg/action"
-	"github.com/ntnguyencse/helm/pkg/cli"
-	"github.com/ntnguyencse/helm/pkg/kube"
+	"github.com/ntnguyencse/helm-mod/pkg/action"
+	"github.com/ntnguyencse/helm-mod/pkg/cli"
+	"github.com/ntnguyencse/helm-mod/pkg/kube"
 	"github.com/spf13/cobra"
 	"k8s.io/cli-runtime/pkg/genericclioptions"
 )

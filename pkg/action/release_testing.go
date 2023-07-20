@@ -25,8 +25,8 @@ import (
 	"github.com/pkg/errors"
 	v1 "k8s.io/api/core/v1"
 
-	"github.com/ntnguyencse/helm/pkg/chartutil"
-	"github.com/ntnguyencse/helm/pkg/release"
+	"github.com/ntnguyencse/helm-mod/pkg/chartutil"
+	"github.com/ntnguyencse/helm-mod/pkg/release"
 )
 
 // ReleaseTesting is the action for testing a release.

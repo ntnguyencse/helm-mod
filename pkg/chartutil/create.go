@@ -28,8 +28,8 @@ import (
 	"github.com/pkg/errors"
 	"sigs.k8s.io/yaml"
 
-	"github.com/ntnguyencse/helm/pkg/chart"
-	"github.com/ntnguyencse/helm/pkg/chart/loader"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/pkg/chart/loader"
 )
 
 // chartName is a regular expression for testing the supplied name of a chart.

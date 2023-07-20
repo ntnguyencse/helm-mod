@@ -32,17 +32,17 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	"github.com/ntnguyencse/helm/pkg/chart"
-	"github.com/ntnguyencse/helm/pkg/chartutil"
-	"github.com/ntnguyencse/helm/pkg/engine"
-	"github.com/ntnguyencse/helm/pkg/kube"
-	"github.com/ntnguyencse/helm/pkg/postrender"
-	"github.com/ntnguyencse/helm/pkg/registry"
-	"github.com/ntnguyencse/helm/pkg/release"
-	"github.com/ntnguyencse/helm/pkg/releaseutil"
-	"github.com/ntnguyencse/helm/pkg/storage"
-	"github.com/ntnguyencse/helm/pkg/storage/driver"
-	"github.com/ntnguyencse/helm/pkg/time"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/pkg/chartutil"
+	"github.com/ntnguyencse/helm-mod/pkg/engine"
+	"github.com/ntnguyencse/helm-mod/pkg/kube"
+	"github.com/ntnguyencse/helm-mod/pkg/postrender"
+	"github.com/ntnguyencse/helm-mod/pkg/registry"
+	"github.com/ntnguyencse/helm-mod/pkg/release"
+	"github.com/ntnguyencse/helm-mod/pkg/releaseutil"
+	"github.com/ntnguyencse/helm-mod/pkg/storage"
+	"github.com/ntnguyencse/helm-mod/pkg/storage/driver"
+	"github.com/ntnguyencse/helm-mod/pkg/time"
 )
 
 // Timestamper is a function capable of producing a timestamp.Timestamper.

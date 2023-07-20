@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	rspb "github.com/ntnguyencse/helm/pkg/release"
+	rspb "github.com/ntnguyencse/helm-mod/pkg/release"
 )
 
 func TestMemoryName(t *testing.T) {

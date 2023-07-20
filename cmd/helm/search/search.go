@@ -31,7 +31,7 @@ import (
 
 	"github.com/Masterminds/semver/v3"
 
-	"github.com/ntnguyencse/helm/pkg/repo"
+	"github.com/ntnguyencse/helm-mod/pkg/repo"
 )
 
 // Result is a search result.

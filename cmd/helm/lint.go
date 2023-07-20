@@ -26,10 +26,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/ntnguyencse/helm/pkg/action"
-	"github.com/ntnguyencse/helm/pkg/cli/values"
-	"github.com/ntnguyencse/helm/pkg/getter"
-	"github.com/ntnguyencse/helm/pkg/lint/support"
+	"github.com/ntnguyencse/helm-mod/pkg/action"
+	"github.com/ntnguyencse/helm-mod/pkg/cli/values"
+	"github.com/ntnguyencse/helm-mod/pkg/getter"
+	"github.com/ntnguyencse/helm-mod/pkg/lint/support"
 )
 
 var longLintHelp = `

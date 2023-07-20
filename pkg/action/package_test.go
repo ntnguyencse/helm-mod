@@ -24,7 +24,7 @@ import (
 
 	"github.com/Masterminds/semver/v3"
 
-	"github.com/ntnguyencse/helm/internal/test/ensure"
+	"github.com/ntnguyencse/helm-mod/internal/test/ensure"
 )
 
 func TestPassphraseFileFetcher(t *testing.T) {

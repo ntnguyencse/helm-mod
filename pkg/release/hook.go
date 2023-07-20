@@ -17,7 +17,7 @@ limitations under the License.
 package release
 
 import (
-	"github.com/ntnguyencse/helm/pkg/time"
+	"github.com/ntnguyencse/helm-mod/pkg/time"
 )
 
 // HookEvent specifies the hook event

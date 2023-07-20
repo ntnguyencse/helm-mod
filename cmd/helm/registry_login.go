@@ -28,8 +28,8 @@ import (
 	"github.com/moby/term"
 	"github.com/spf13/cobra"
 
-	"github.com/ntnguyencse/helm/cmd/helm/require"
-	"github.com/ntnguyencse/helm/pkg/action"
+	"github.com/ntnguyencse/helm-mod/cmd/helm/require"
+	"github.com/ntnguyencse/helm-mod/pkg/action"
 )
 
 const registryLoginDesc = `

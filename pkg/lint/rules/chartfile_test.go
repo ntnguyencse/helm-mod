@@ -24,9 +24,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ntnguyencse/helm/pkg/chart"
-	"github.com/ntnguyencse/helm/pkg/chartutil"
-	"github.com/ntnguyencse/helm/pkg/lint/support"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/pkg/chartutil"
+	"github.com/ntnguyencse/helm-mod/pkg/lint/support"
 )
 
 const (

@@ -19,7 +19,7 @@ package helm
 import (
 	"testing"
 
-	"github.com/ntnguyencse/helm/pkg/release"
+	"github.com/ntnguyencse/helm-mod/pkg/release"
 )
 
 func TestGetNotesCmd(t *testing.T) {

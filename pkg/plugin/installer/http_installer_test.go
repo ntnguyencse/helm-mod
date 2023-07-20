@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package installer // import "github.com/ntnguyencse/helm/pkg/plugin/installer"
+package installer // import "github.com/ntnguyencse/helm-mod/pkg/plugin/installer"
 
 import (
 	"archive/tar"
@@ -31,9 +31,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ntnguyencse/helm/internal/test/ensure"
-	"github.com/ntnguyencse/helm/pkg/getter"
-	"github.com/ntnguyencse/helm/pkg/helmpath"
+	"github.com/ntnguyencse/helm-mod/internal/test/ensure"
+	"github.com/ntnguyencse/helm-mod/pkg/getter"
+	"github.com/ntnguyencse/helm-mod/pkg/helmpath"
 )
 
 var _ Installer = new(HTTPInstaller)

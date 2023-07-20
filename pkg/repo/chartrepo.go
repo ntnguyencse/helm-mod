@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package repo // import "github.com/ntnguyencse/helm/pkg/repo"
+package repo // import "github.com/ntnguyencse/helm-mod/pkg/repo"
 
 import (
 	"crypto/rand"
@@ -32,10 +32,10 @@ import (
 	"github.com/pkg/errors"
 	"sigs.k8s.io/yaml"
 
-	"github.com/ntnguyencse/helm/pkg/chart/loader"
-	"github.com/ntnguyencse/helm/pkg/getter"
-	"github.com/ntnguyencse/helm/pkg/helmpath"
-	"github.com/ntnguyencse/helm/pkg/provenance"
+	"github.com/ntnguyencse/helm-mod/pkg/chart/loader"
+	"github.com/ntnguyencse/helm-mod/pkg/getter"
+	"github.com/ntnguyencse/helm-mod/pkg/helmpath"
+	"github.com/ntnguyencse/helm-mod/pkg/provenance"
 )
 
 // Entry represents a collection of parameters for chart repository

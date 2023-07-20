@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package driver // import "github.com/ntnguyencse/helm/pkg/storage/driver"
+package driver // import "github.com/ntnguyencse/helm-mod/pkg/storage/driver"
 
 import (
 	"context"
@@ -30,7 +30,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/validation"
 	corev1 "k8s.io/client-go/kubernetes/typed/core/v1"
 
-	rspb "github.com/ntnguyencse/helm/pkg/release"
+	rspb "github.com/ntnguyencse/helm-mod/pkg/release"
 )
 
 var _ Driver = (*Secrets)(nil)

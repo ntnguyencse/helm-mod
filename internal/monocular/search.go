@@ -24,8 +24,8 @@ import (
 	"path"
 	"time"
 
-	"github.com/ntnguyencse/helm/internal/version"
-	"github.com/ntnguyencse/helm/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/internal/version"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
 )
 
 // SearchPath is the url path to the search API in monocular.

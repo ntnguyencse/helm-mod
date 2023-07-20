@@ -17,7 +17,7 @@ limitations under the License.
 package action
 
 import (
-	"github.com/ntnguyencse/helm/pkg/chartutil"
+	"github.com/ntnguyencse/helm-mod/pkg/chartutil"
 )
 
 // GetValues is the action for checking a given release's values.

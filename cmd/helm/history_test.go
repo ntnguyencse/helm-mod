@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ntnguyencse/helm/pkg/release"
+	"github.com/ntnguyencse/helm-mod/pkg/release"
 )
 
 func TestHistoryCmd(t *testing.T) {

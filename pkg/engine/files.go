@@ -23,7 +23,7 @@ import (
 
 	"github.com/gobwas/glob"
 
-	"github.com/ntnguyencse/helm/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
 )
 
 // files is a map of files in a chart that can be accessed from a template.

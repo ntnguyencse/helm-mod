@@ -22,7 +22,7 @@ import (
 
 	sqlmock "github.com/DATA-DOG/go-sqlmock"
 
-	rspb "github.com/ntnguyencse/helm/pkg/release"
+	rspb "github.com/ntnguyencse/helm-mod/pkg/release"
 )
 
 func TestSQLName(t *testing.T) {

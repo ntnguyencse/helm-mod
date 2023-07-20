@@ -26,8 +26,8 @@ import (
 	"github.com/pkg/errors"
 	"sigs.k8s.io/yaml"
 
-	"github.com/ntnguyencse/helm/pkg/chart"
-	"github.com/ntnguyencse/helm/pkg/chart/loader"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/pkg/chart/loader"
 )
 
 // Expand uncompresses and extracts a chart into the specified directory.

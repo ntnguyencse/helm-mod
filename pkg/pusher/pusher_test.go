@@ -18,8 +18,8 @@ package pusher
 import (
 	"testing"
 
-	"github.com/ntnguyencse/helm/pkg/cli"
-	"github.com/ntnguyencse/helm/pkg/registry"
+	"github.com/ntnguyencse/helm-mod/pkg/cli"
+	"github.com/ntnguyencse/helm-mod/pkg/registry"
 )
 
 func TestProvider(t *testing.T) {

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	helmwrapper "github.com/ntnguyencse/helm/cmd/helm"
+	helmwrapper "github.com/ntnguyencse/helm-mod/cmd/helm"
 )
 
 func main() {

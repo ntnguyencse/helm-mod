@@ -23,6 +23,6 @@ linters-settings:
   gofmt:
     simplify: true
   goimports:
-    local-prefixes: github.com/ntnguyencse/helm
+    local-prefixes: github.com/ntnguyencse/helm-mod
   dupl:
     threshold: 400

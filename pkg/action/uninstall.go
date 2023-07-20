@@ -22,11 +22,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ntnguyencse/helm/pkg/chartutil"
-	"github.com/ntnguyencse/helm/pkg/kube"
-	"github.com/ntnguyencse/helm/pkg/release"
-	"github.com/ntnguyencse/helm/pkg/releaseutil"
-	helmtime "github.com/ntnguyencse/helm/pkg/time"
+	"github.com/ntnguyencse/helm-mod/pkg/chartutil"
+	"github.com/ntnguyencse/helm-mod/pkg/kube"
+	"github.com/ntnguyencse/helm-mod/pkg/release"
+	"github.com/ntnguyencse/helm-mod/pkg/releaseutil"
+	helmtime "github.com/ntnguyencse/helm-mod/pkg/time"
 )
 
 // Uninstall is the action for uninstalling releases.

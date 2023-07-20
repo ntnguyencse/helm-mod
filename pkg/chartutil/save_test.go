@@ -29,9 +29,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ntnguyencse/helm/internal/test/ensure"
-	"github.com/ntnguyencse/helm/pkg/chart"
-	"github.com/ntnguyencse/helm/pkg/chart/loader"
+	"github.com/ntnguyencse/helm-mod/internal/test/ensure"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/pkg/chart/loader"
 )
 
 func TestSave(t *testing.T) {

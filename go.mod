@@ -1,4 +1,4 @@
-module github.com/ntnguyencse/helm
+module github.com/ntnguyencse/helm-mod
 
 go 1.18
 

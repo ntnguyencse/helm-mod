@@ -25,13 +25,13 @@ import (
 	"github.com/gosuri/uitable"
 	"github.com/spf13/cobra"
 
-	"github.com/ntnguyencse/helm/cmd/helm/require"
-	"github.com/ntnguyencse/helm/pkg/action"
-	"github.com/ntnguyencse/helm/pkg/chart"
-	"github.com/ntnguyencse/helm/pkg/cli/output"
-	"github.com/ntnguyencse/helm/pkg/release"
-	"github.com/ntnguyencse/helm/pkg/releaseutil"
-	helmtime "github.com/ntnguyencse/helm/pkg/time"
+	"github.com/ntnguyencse/helm-mod/cmd/helm/require"
+	"github.com/ntnguyencse/helm-mod/pkg/action"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/pkg/cli/output"
+	"github.com/ntnguyencse/helm-mod/pkg/release"
+	"github.com/ntnguyencse/helm-mod/pkg/releaseutil"
+	helmtime "github.com/ntnguyencse/helm-mod/pkg/time"
 )
 
 var historyHelp = `

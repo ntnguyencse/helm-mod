@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package helm // import "github.com/ntnguyencse/helm/cmd/helm"
+package helm // import "github.com/ntnguyencse/helm-mod/cmd/helm"
 
 import (
 	"fmt"
@@ -29,12 +29,12 @@ import (
 	// Import to initialize client auth plugins.
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 
-	"github.com/ntnguyencse/helm/pkg/action"
-	"github.com/ntnguyencse/helm/pkg/cli"
-	"github.com/ntnguyencse/helm/pkg/kube"
-	kubefake "github.com/ntnguyencse/helm/pkg/kube/fake"
-	"github.com/ntnguyencse/helm/pkg/release"
-	"github.com/ntnguyencse/helm/pkg/storage/driver"
+	"github.com/ntnguyencse/helm-mod/pkg/action"
+	"github.com/ntnguyencse/helm-mod/pkg/cli"
+	"github.com/ntnguyencse/helm-mod/pkg/kube"
+	kubefake "github.com/ntnguyencse/helm-mod/pkg/kube/fake"
+	"github.com/ntnguyencse/helm-mod/pkg/release"
+	"github.com/ntnguyencse/helm-mod/pkg/storage/driver"
 )
 
 var settings = cli.New()

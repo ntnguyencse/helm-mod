@@ -33,7 +33,7 @@ import (
 	"k8s.io/cli-runtime/pkg/genericclioptions"
 	"k8s.io/client-go/rest"
 
-	"github.com/ntnguyencse/helm/pkg/helmpath"
+	"github.com/ntnguyencse/helm-mod/pkg/helmpath"
 )
 
 // defaultMaxHistory sets the maximum number of releases to 0: unlimited

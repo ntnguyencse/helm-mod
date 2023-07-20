@@ -27,11 +27,11 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"github.com/ntnguyencse/helm/internal/test/ensure"
-	"github.com/ntnguyencse/helm/pkg/helmpath"
-	"github.com/ntnguyencse/helm/pkg/helmpath/xdg"
-	"github.com/ntnguyencse/helm/pkg/repo"
-	"github.com/ntnguyencse/helm/pkg/repo/repotest"
+	"github.com/ntnguyencse/helm-mod/internal/test/ensure"
+	"github.com/ntnguyencse/helm-mod/pkg/helmpath"
+	"github.com/ntnguyencse/helm-mod/pkg/helmpath/xdg"
+	"github.com/ntnguyencse/helm-mod/pkg/repo"
+	"github.com/ntnguyencse/helm-mod/pkg/repo/repotest"
 )
 
 func TestRepoAddCmd(t *testing.T) {

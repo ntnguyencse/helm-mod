@@ -19,7 +19,7 @@ package action
 import (
 	"testing"
 
-	"github.com/ntnguyencse/helm/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
 )
 
 func TestShow(t *testing.T) {

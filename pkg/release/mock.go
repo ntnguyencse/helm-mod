@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/ntnguyencse/helm/pkg/chart"
-	"github.com/ntnguyencse/helm/pkg/time"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/pkg/time"
 )
 
 // MockHookTemplate is the hook template used for all mock release objects.

@@ -23,7 +23,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/ntnguyencse/helm/cmd/helm/require"
+	"github.com/ntnguyencse/helm-mod/cmd/helm/require"
 )
 
 var repoHelm = `

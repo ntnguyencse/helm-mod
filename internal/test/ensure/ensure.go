@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ntnguyencse/helm/pkg/helmpath"
-	"github.com/ntnguyencse/helm/pkg/helmpath/xdg"
+	"github.com/ntnguyencse/helm-mod/pkg/helmpath"
+	"github.com/ntnguyencse/helm-mod/pkg/helmpath/xdg"
 )
 
 // HelmHome sets up a Helm Home in a temp dir.

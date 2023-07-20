@@ -19,10 +19,10 @@ package action
 import (
 	"strings"
 
-	"github.com/ntnguyencse/helm/pkg/cli"
-	"github.com/ntnguyencse/helm/pkg/pusher"
-	"github.com/ntnguyencse/helm/pkg/registry"
-	"github.com/ntnguyencse/helm/pkg/uploader"
+	"github.com/ntnguyencse/helm-mod/pkg/cli"
+	"github.com/ntnguyencse/helm-mod/pkg/pusher"
+	"github.com/ntnguyencse/helm-mod/pkg/registry"
+	"github.com/ntnguyencse/helm-mod/pkg/uploader"
 )
 
 // Push is the action for uploading a chart.

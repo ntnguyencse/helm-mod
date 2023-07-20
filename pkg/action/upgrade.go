@@ -28,13 +28,13 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/cli-runtime/pkg/resource"
 
-	"github.com/ntnguyencse/helm/pkg/chart"
-	"github.com/ntnguyencse/helm/pkg/chartutil"
-	"github.com/ntnguyencse/helm/pkg/kube"
-	"github.com/ntnguyencse/helm/pkg/postrender"
-	"github.com/ntnguyencse/helm/pkg/release"
-	"github.com/ntnguyencse/helm/pkg/releaseutil"
-	"github.com/ntnguyencse/helm/pkg/storage/driver"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/pkg/chartutil"
+	"github.com/ntnguyencse/helm-mod/pkg/kube"
+	"github.com/ntnguyencse/helm-mod/pkg/postrender"
+	"github.com/ntnguyencse/helm-mod/pkg/release"
+	"github.com/ntnguyencse/helm-mod/pkg/releaseutil"
+	"github.com/ntnguyencse/helm-mod/pkg/storage/driver"
 )
 
 // Upgrade is the action for upgrading releases.

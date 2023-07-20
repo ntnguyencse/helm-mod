@@ -15,7 +15,7 @@ limitations under the License.
 
 package release
 
-import "github.com/ntnguyencse/helm/pkg/chart"
+import "github.com/ntnguyencse/helm-mod/pkg/chart"
 
 // Release describes a deployment of a chart, together with the chart
 // and the variables used to deploy that chart.

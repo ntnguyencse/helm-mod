@@ -25,7 +25,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ntnguyencse/helm/pkg/plugin"
+	"github.com/ntnguyencse/helm-mod/pkg/plugin"
 )
 
 // ErrMissingMetadata indicates that plugin.yaml is missing.

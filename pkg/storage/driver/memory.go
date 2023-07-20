@@ -21,7 +21,7 @@ import (
 	"strings"
 	"sync"
 
-	rspb "github.com/ntnguyencse/helm/pkg/release"
+	rspb "github.com/ntnguyencse/helm-mod/pkg/release"
 )
 
 var _ Driver = (*Memory)(nil)

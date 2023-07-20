@@ -14,4 +14,4 @@ limitations under the License.
 */
 
 // Package installer provides an interface for installing Helm plugins.
-package installer // import "github.com/ntnguyencse/helm/pkg/plugin/installer"
+package installer // import "github.com/ntnguyencse/helm-mod/pkg/plugin/installer"

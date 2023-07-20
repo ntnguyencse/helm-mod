@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package registry // import "github.com/ntnguyencse/helm/pkg/registry"
+package registry // import "github.com/ntnguyencse/helm-mod/pkg/registry"
 
 import (
 	"bytes"
@@ -29,8 +29,8 @@ import (
 	orascontext "oras.land/oras-go/pkg/context"
 	"oras.land/oras-go/pkg/registry"
 
-	"github.com/ntnguyencse/helm/pkg/chart"
-	"github.com/ntnguyencse/helm/pkg/chart/loader"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/pkg/chart/loader"
 )
 
 // IsOCI determines whether or not a URL is to be treated as an OCI URL

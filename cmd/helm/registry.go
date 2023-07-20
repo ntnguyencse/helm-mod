@@ -20,7 +20,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ntnguyencse/helm/pkg/action"
+	"github.com/ntnguyencse/helm-mod/pkg/action"
 )
 
 const registryHelp = `

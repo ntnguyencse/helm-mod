@@ -26,13 +26,13 @@ import (
 	"github.com/Masterminds/semver/v3"
 	"github.com/pkg/errors"
 
-	"github.com/ntnguyencse/helm/internal/fileutil"
-	"github.com/ntnguyencse/helm/internal/urlutil"
-	"github.com/ntnguyencse/helm/pkg/getter"
-	"github.com/ntnguyencse/helm/pkg/helmpath"
-	"github.com/ntnguyencse/helm/pkg/provenance"
-	"github.com/ntnguyencse/helm/pkg/registry"
-	"github.com/ntnguyencse/helm/pkg/repo"
+	"github.com/ntnguyencse/helm-mod/internal/fileutil"
+	"github.com/ntnguyencse/helm-mod/internal/urlutil"
+	"github.com/ntnguyencse/helm-mod/pkg/getter"
+	"github.com/ntnguyencse/helm-mod/pkg/helmpath"
+	"github.com/ntnguyencse/helm-mod/pkg/provenance"
+	"github.com/ntnguyencse/helm-mod/pkg/registry"
+	"github.com/ntnguyencse/helm-mod/pkg/repo"
 )
 
 // VerificationStrategy describes a strategy for determining whether to verify a chart.

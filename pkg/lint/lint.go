@@ -14,13 +14,13 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package lint // import "github.com/ntnguyencse/helm/pkg/lint"
+package lint // import "github.com/ntnguyencse/helm-mod/pkg/lint"
 
 import (
 	"path/filepath"
 
-	"github.com/ntnguyencse/helm/pkg/lint/rules"
-	"github.com/ntnguyencse/helm/pkg/lint/support"
+	"github.com/ntnguyencse/helm-mod/pkg/lint/rules"
+	"github.com/ntnguyencse/helm-mod/pkg/lint/support"
 )
 
 // All runs all of the available linters on the given base directory.

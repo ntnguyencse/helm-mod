@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package installer // import "github.com/ntnguyencse/helm/pkg/plugin/installer"
+package installer // import "github.com/ntnguyencse/helm-mod/pkg/plugin/installer"
 
 import (
 	"archive/tar"
@@ -29,11 +29,11 @@ import (
 	securejoin "github.com/cyphar/filepath-securejoin"
 	"github.com/pkg/errors"
 
-	"github.com/ntnguyencse/helm/internal/third_party/dep/fs"
-	"github.com/ntnguyencse/helm/pkg/cli"
-	"github.com/ntnguyencse/helm/pkg/getter"
-	"github.com/ntnguyencse/helm/pkg/helmpath"
-	"github.com/ntnguyencse/helm/pkg/plugin/cache"
+	"github.com/ntnguyencse/helm-mod/internal/third_party/dep/fs"
+	"github.com/ntnguyencse/helm-mod/pkg/cli"
+	"github.com/ntnguyencse/helm-mod/pkg/getter"
+	"github.com/ntnguyencse/helm-mod/pkg/helmpath"
+	"github.com/ntnguyencse/helm-mod/pkg/plugin/cache"
 )
 
 // HTTPInstaller installs plugins from an archive served by a web server.

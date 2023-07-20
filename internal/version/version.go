@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package version // import "github.com/ntnguyencse/helm/internal/version"
+package version // import "github.com/ntnguyencse/helm-mod/internal/version"
 
 import (
 	"flag"

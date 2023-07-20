@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package rules // import "github.com/ntnguyencse/helm/pkg/lint/rules"
+package rules // import "github.com/ntnguyencse/helm-mod/pkg/lint/rules"
 
 import (
 	"fmt"
@@ -27,9 +27,9 @@ import (
 	"github.com/pkg/errors"
 	"sigs.k8s.io/yaml"
 
-	"github.com/ntnguyencse/helm/pkg/chart"
-	"github.com/ntnguyencse/helm/pkg/chartutil"
-	"github.com/ntnguyencse/helm/pkg/lint/support"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/pkg/chartutil"
+	"github.com/ntnguyencse/helm-mod/pkg/lint/support"
 )
 
 // Chartfile runs a set of linter rules related to Chart.yaml file

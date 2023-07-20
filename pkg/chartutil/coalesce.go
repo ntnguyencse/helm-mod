@@ -23,7 +23,7 @@ import (
 	"github.com/mitchellh/copystructure"
 	"github.com/pkg/errors"
 
-	"github.com/ntnguyencse/helm/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
 )
 
 func concatPrefix(a, b string) string {

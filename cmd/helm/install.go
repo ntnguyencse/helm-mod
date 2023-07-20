@@ -30,15 +30,15 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/ntnguyencse/helm/cmd/helm/require"
-	"github.com/ntnguyencse/helm/pkg/action"
-	"github.com/ntnguyencse/helm/pkg/chart"
-	"github.com/ntnguyencse/helm/pkg/chart/loader"
-	"github.com/ntnguyencse/helm/pkg/cli/output"
-	"github.com/ntnguyencse/helm/pkg/cli/values"
-	"github.com/ntnguyencse/helm/pkg/downloader"
-	"github.com/ntnguyencse/helm/pkg/getter"
-	"github.com/ntnguyencse/helm/pkg/release"
+	"github.com/ntnguyencse/helm-mod/cmd/helm/require"
+	"github.com/ntnguyencse/helm-mod/pkg/action"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/pkg/chart/loader"
+	"github.com/ntnguyencse/helm-mod/pkg/cli/output"
+	"github.com/ntnguyencse/helm-mod/pkg/cli/values"
+	"github.com/ntnguyencse/helm-mod/pkg/downloader"
+	"github.com/ntnguyencse/helm-mod/pkg/getter"
+	"github.com/ntnguyencse/helm-mod/pkg/release"
 )
 
 const installDesc = `

@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package registry // import "github.com/ntnguyencse/helm/pkg/registry"
+package registry // import "github.com/ntnguyencse/helm-mod/pkg/registry"
 
 import (
 	"context"
@@ -38,9 +38,9 @@ import (
 	registryremote "oras.land/oras-go/pkg/registry/remote"
 	registryauth "oras.land/oras-go/pkg/registry/remote/auth"
 
-	"github.com/ntnguyencse/helm/internal/version"
-	"github.com/ntnguyencse/helm/pkg/chart"
-	"github.com/ntnguyencse/helm/pkg/helmpath"
+	"github.com/ntnguyencse/helm-mod/internal/version"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/pkg/helmpath"
 )
 
 // See https://github.com/helm/helm/issues/10166

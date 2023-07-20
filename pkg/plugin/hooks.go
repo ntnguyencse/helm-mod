@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package plugin // import "github.com/ntnguyencse/helm/pkg/plugin"
+package plugin // import "github.com/ntnguyencse/helm-mod/pkg/plugin"
 
 // Types of hooks
 const (

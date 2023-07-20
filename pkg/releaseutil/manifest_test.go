@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package releaseutil // import "github.com/ntnguyencse/helm/pkg/releaseutil"
+package releaseutil // import "github.com/ntnguyencse/helm-mod/pkg/releaseutil"
 
 import (
 	"reflect"

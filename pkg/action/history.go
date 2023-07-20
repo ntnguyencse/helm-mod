@@ -19,8 +19,8 @@ package action
 import (
 	"github.com/pkg/errors"
 
-	"github.com/ntnguyencse/helm/pkg/chartutil"
-	"github.com/ntnguyencse/helm/pkg/release"
+	"github.com/ntnguyencse/helm-mod/pkg/chartutil"
+	"github.com/ntnguyencse/helm-mod/pkg/release"
 )
 
 // History is the action for checking the release's ledger.

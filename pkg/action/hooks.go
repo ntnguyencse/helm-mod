@@ -22,8 +22,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ntnguyencse/helm/pkg/release"
-	helmtime "github.com/ntnguyencse/helm/pkg/time"
+	"github.com/ntnguyencse/helm-mod/pkg/release"
+	helmtime "github.com/ntnguyencse/helm-mod/pkg/time"
 )
 
 // execHook executes all of the hooks for the given hook event.

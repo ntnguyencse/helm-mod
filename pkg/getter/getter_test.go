@@ -18,7 +18,7 @@ package getter
 import (
 	"testing"
 
-	"github.com/ntnguyencse/helm/pkg/cli"
+	"github.com/ntnguyencse/helm-mod/pkg/cli"
 )
 
 const pluginDir = "testdata/plugins"

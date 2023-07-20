@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package storage // import "github.com/ntnguyencse/helm/pkg/storage"
+package storage // import "github.com/ntnguyencse/helm-mod/pkg/storage"
 
 import (
 	"fmt"
@@ -23,8 +23,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	rspb "github.com/ntnguyencse/helm/pkg/release"
-	"github.com/ntnguyencse/helm/pkg/storage/driver"
+	rspb "github.com/ntnguyencse/helm-mod/pkg/release"
+	"github.com/ntnguyencse/helm-mod/pkg/storage/driver"
 )
 
 func TestStorageCreate(t *testing.T) {

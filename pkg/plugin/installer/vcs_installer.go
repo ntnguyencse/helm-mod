@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package installer // import "github.com/ntnguyencse/helm/pkg/plugin/installer"
+package installer // import "github.com/ntnguyencse/helm-mod/pkg/plugin/installer"
 
 import (
 	"os"
@@ -23,9 +23,9 @@ import (
 	"github.com/Masterminds/vcs"
 	"github.com/pkg/errors"
 
-	"github.com/ntnguyencse/helm/internal/third_party/dep/fs"
-	"github.com/ntnguyencse/helm/pkg/helmpath"
-	"github.com/ntnguyencse/helm/pkg/plugin/cache"
+	"github.com/ntnguyencse/helm-mod/internal/third_party/dep/fs"
+	"github.com/ntnguyencse/helm-mod/pkg/helmpath"
+	"github.com/ntnguyencse/helm-mod/pkg/plugin/cache"
 )
 
 // VCSInstaller installs plugins from remote a repository.

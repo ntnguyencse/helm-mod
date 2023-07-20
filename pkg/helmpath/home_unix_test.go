@@ -20,7 +20,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/ntnguyencse/helm/pkg/helmpath/xdg"
+	"github.com/ntnguyencse/helm-mod/pkg/helmpath/xdg"
 )
 
 func TestHelmHome(t *testing.T) {

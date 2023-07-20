@@ -26,9 +26,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ntnguyencse/helm/internal/ignore"
-	"github.com/ntnguyencse/helm/internal/sympath"
-	"github.com/ntnguyencse/helm/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/internal/ignore"
+	"github.com/ntnguyencse/helm-mod/internal/sympath"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
 )
 
 var utf8bom = []byte{0xEF, 0xBB, 0xBF}

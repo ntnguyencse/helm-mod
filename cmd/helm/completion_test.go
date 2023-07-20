@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ntnguyencse/helm/pkg/chart"
-	"github.com/ntnguyencse/helm/pkg/release"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/pkg/release"
 )
 
 // Check if file completion should be performed according to parameter 'shouldBePerformed'

@@ -19,7 +19,7 @@ package action
 import (
 	"io"
 
-	"github.com/ntnguyencse/helm/pkg/registry"
+	"github.com/ntnguyencse/helm-mod/pkg/registry"
 )
 
 // RegistryLogin performs a registry login operation.

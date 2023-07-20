@@ -22,7 +22,7 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/ntnguyencse/helm/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
 )
 
 func TestReadValues(t *testing.T) {

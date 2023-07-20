@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package installer // import "github.com/ntnguyencse/helm/pkg/plugin/installer"
+package installer // import "github.com/ntnguyencse/helm-mod/pkg/plugin/installer"
 
 import (
 	"io/ioutil"
@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ntnguyencse/helm/pkg/helmpath"
+	"github.com/ntnguyencse/helm-mod/pkg/helmpath"
 )
 
 var _ Installer = new(LocalInstaller)

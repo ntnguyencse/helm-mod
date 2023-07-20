@@ -19,7 +19,7 @@ package releaseutil
 import (
 	"sort"
 
-	"github.com/ntnguyencse/helm/pkg/release"
+	"github.com/ntnguyencse/helm-mod/pkg/release"
 )
 
 // KindSortOrder is an ordering of Kinds.

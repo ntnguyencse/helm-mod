@@ -31,10 +31,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/ntnguyencse/helm/cmd/helm/search"
-	"github.com/ntnguyencse/helm/pkg/cli/output"
-	"github.com/ntnguyencse/helm/pkg/helmpath"
-	"github.com/ntnguyencse/helm/pkg/repo"
+	"github.com/ntnguyencse/helm-mod/cmd/helm/search"
+	"github.com/ntnguyencse/helm-mod/pkg/cli/output"
+	"github.com/ntnguyencse/helm-mod/pkg/helmpath"
+	"github.com/ntnguyencse/helm-mod/pkg/repo"
 )
 
 const searchRepoDesc = `

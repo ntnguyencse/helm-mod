@@ -21,7 +21,7 @@ import (
 
 	v1 "k8s.io/api/core/v1"
 
-	rspb "github.com/ntnguyencse/helm/pkg/release"
+	rspb "github.com/ntnguyencse/helm-mod/pkg/release"
 )
 
 func TestConfigMapName(t *testing.T) {

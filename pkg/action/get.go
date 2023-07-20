@@ -17,7 +17,7 @@ limitations under the License.
 package action
 
 import (
-	"github.com/ntnguyencse/helm/pkg/release"
+	"github.com/ntnguyencse/helm-mod/pkg/release"
 )
 
 // Get is the action for checking a given release's information.

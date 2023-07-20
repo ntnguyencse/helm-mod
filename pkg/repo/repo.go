@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package repo // import "github.com/ntnguyencse/helm/pkg/repo"
+package repo // import "github.com/ntnguyencse/helm-mod/pkg/repo"
 
 import (
 	"io/ioutil"

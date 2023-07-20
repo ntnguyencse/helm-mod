@@ -31,11 +31,11 @@ import (
 	"github.com/pkg/errors"
 	"sigs.k8s.io/yaml"
 
-	"github.com/ntnguyencse/helm/internal/fileutil"
-	"github.com/ntnguyencse/helm/internal/urlutil"
-	"github.com/ntnguyencse/helm/pkg/chart"
-	"github.com/ntnguyencse/helm/pkg/chart/loader"
-	"github.com/ntnguyencse/helm/pkg/provenance"
+	"github.com/ntnguyencse/helm-mod/internal/fileutil"
+	"github.com/ntnguyencse/helm-mod/internal/urlutil"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/pkg/chart/loader"
+	"github.com/ntnguyencse/helm-mod/pkg/provenance"
 )
 
 var indexPath = "index.yaml"

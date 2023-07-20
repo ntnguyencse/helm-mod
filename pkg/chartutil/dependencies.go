@@ -19,7 +19,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/ntnguyencse/helm/pkg/chart"
+	"github.com/ntnguyencse/helm-mod/pkg/chart"
 )
 
 // ProcessDependencies checks through this chart's dependencies, processing accordingly.

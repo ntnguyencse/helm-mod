@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package registry // import "github.com/ntnguyencse/helm/pkg/registry"
+package registry // import "github.com/ntnguyencse/helm-mod/pkg/registry"
 
 const (
 	// OCIScheme is the URL scheme for OCI-based requests

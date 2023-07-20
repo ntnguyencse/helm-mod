@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ntnguyencse/helm/pkg/downloader"
+	"github.com/ntnguyencse/helm-mod/pkg/downloader"
 )
 
 // Verify is the action for building a given chart's Verify tree.
