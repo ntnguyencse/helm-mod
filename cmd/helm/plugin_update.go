@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package main
+package helm
 
 import (
 	"fmt"
@@ -24,8 +24,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"helm.sh/helm/v3/pkg/plugin"
-	"helm.sh/helm/v3/pkg/plugin/installer"
+	"github.com/ntnguyencse/helm/pkg/plugin"
+	"github.com/ntnguyencse/helm/pkg/plugin/installer"
 )
 
 type pluginUpdateOptions struct {

@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package main
+package helm
 
 import (
 	"context"
@@ -32,9 +32,9 @@ import (
 	"golang.org/x/term"
 	"sigs.k8s.io/yaml"
 
-	"helm.sh/helm/v3/cmd/helm/require"
-	"helm.sh/helm/v3/pkg/getter"
-	"helm.sh/helm/v3/pkg/repo"
+	"github.com/ntnguyencse/helm/cmd/helm/require"
+	"github.com/ntnguyencse/helm/pkg/getter"
+	"github.com/ntnguyencse/helm/pkg/repo"
 )
 
 // Repositories that have been permanently deleted and no longer work

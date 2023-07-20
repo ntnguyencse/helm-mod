@@ -17,7 +17,7 @@ limitations under the License.
 package action
 
 import (
-	"helm.sh/helm/v3/pkg/release"
+	"github.com/ntnguyencse/helm/pkg/release"
 )
 
 // Status is the action for checking the deployment status of releases.

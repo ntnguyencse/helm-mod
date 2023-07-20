@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"helm.sh/helm/v3/pkg/helmpath"
-	"helm.sh/helm/v3/pkg/helmpath/xdg"
+	"github.com/ntnguyencse/helm/pkg/helmpath"
+	"github.com/ntnguyencse/helm/pkg/helmpath/xdg"
 )
 
 // HelmHome sets up a Helm Home in a temp dir.
@@ -57,9 +57,9 @@ func TempDir(t *testing.T) string {
 //
 // You must clean up the directory that is returned.
 //
-// 	tempdir := TempFile(t, "foo", []byte("bar"))
-// 	defer os.RemoveAll(tempdir)
-// 	filename := filepath.Join(tempdir, "foo")
+//	tempdir := TempFile(t, "foo", []byte("bar"))
+//	defer os.RemoveAll(tempdir)
+//	filename := filepath.Join(tempdir, "foo")
 func TempFile(t *testing.T, name string, data []byte) string {
 	path := TempDir(t)
 	filename := filepath.Join(path, name)

@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package main
+package helm
 
 import (
 	"fmt"
@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"helm.sh/helm/v3/pkg/repo/repotest"
+	"github.com/ntnguyencse/helm/pkg/repo/repotest"
 )
 
 func TestShowPreReleaseChart(t *testing.T) {

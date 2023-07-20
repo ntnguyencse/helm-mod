@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package kube // import "helm.sh/helm/v3/pkg/kube"
+package kube // import "github.com/ntnguyencse/helm/pkg/kube"
 
 import (
 	"context"
@@ -356,10 +356,10 @@ func (c *Client) watchTimeout(t time.Duration) func(*resource.Info) error {
 // For most kinds, it checks to see if the resource is marked as Added or Modified
 // by the Kubernetes event stream. For some kinds, it does more:
 //
-// - Jobs: A job is marked "Ready" when it has successfully completed. This is
-//   ascertained by watching the Status fields in a job's output.
-// - Pods: A pod is marked "Ready" when it has successfully completed. This is
-//   ascertained by watching the status.phase field in a pod's output.
+//   - Jobs: A job is marked "Ready" when it has successfully completed. This is
+//     ascertained by watching the Status fields in a job's output.
+//   - Pods: A pod is marked "Ready" when it has successfully completed. This is
+//     ascertained by watching the status.phase field in a pod's output.
 //
 // Handling for other kinds will be added as necessary.
 func (c *Client) WatchUntilReady(resources ResourceList, timeout time.Duration) error {

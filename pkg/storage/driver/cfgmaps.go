@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package driver // import "helm.sh/helm/v3/pkg/storage/driver"
+package driver // import "github.com/ntnguyencse/helm/pkg/storage/driver"
 
 import (
 	"context"
@@ -30,7 +30,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/validation"
 	corev1 "k8s.io/client-go/kubernetes/typed/core/v1"
 
-	rspb "helm.sh/helm/v3/pkg/release"
+	rspb "github.com/ntnguyencse/helm/pkg/release"
 )
 
 var _ Driver = (*ConfigMaps)(nil)
@@ -220,13 +220,12 @@ func (cfgmaps *ConfigMaps) Delete(key string) (rls *rspb.Release, err error) {
 //
 // The following labels are used within each configmap:
 //
-//    "modifiedAt"     - timestamp indicating when this configmap was last modified. (set in Update)
-//    "createdAt"      - timestamp indicating when this configmap was created. (set in Create)
-//    "version"        - version of the release.
-//    "status"         - status of the release (see pkg/release/status.go for variants)
-//    "owner"          - owner of the configmap, currently "helm".
-//    "name"           - name of the release.
-//
+//	"modifiedAt"     - timestamp indicating when this configmap was last modified. (set in Update)
+//	"createdAt"      - timestamp indicating when this configmap was created. (set in Create)
+//	"version"        - version of the release.
+//	"status"         - status of the release (see pkg/release/status.go for variants)
+//	"owner"          - owner of the configmap, currently "helm".
+//	"name"           - name of the release.
 func newConfigMapsObject(key string, rls *rspb.Release, lbs labels) (*v1.ConfigMap, error) {
 	const owner = "helm"
 

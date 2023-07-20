@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package main // import "helm.sh/helm/v3/cmd/helm"
+package helm // import "github.com/ntnguyencse/helm/cmd/helm"
 
 import (
 	"fmt"
@@ -29,12 +29,12 @@ import (
 	// Import to initialize client auth plugins.
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 
-	"helm.sh/helm/v3/pkg/action"
-	"helm.sh/helm/v3/pkg/cli"
-	"helm.sh/helm/v3/pkg/kube"
-	kubefake "helm.sh/helm/v3/pkg/kube/fake"
-	"helm.sh/helm/v3/pkg/release"
-	"helm.sh/helm/v3/pkg/storage/driver"
+	"github.com/ntnguyencse/helm/pkg/action"
+	"github.com/ntnguyencse/helm/pkg/cli"
+	"github.com/ntnguyencse/helm/pkg/kube"
+	kubefake "github.com/ntnguyencse/helm/pkg/kube/fake"
+	"github.com/ntnguyencse/helm/pkg/release"
+	"github.com/ntnguyencse/helm/pkg/storage/driver"
 )
 
 var settings = cli.New()
@@ -55,7 +55,7 @@ func warning(format string, v ...interface{}) {
 	fmt.Fprintf(os.Stderr, format, v...)
 }
 
-func main() {
+func test_main() {
 	// Setting the name of the app for managedFields in the Kubernetes client.
 	// It is set here to the full name of "helm" so that renaming of helm to
 	// another name (e.g., helm2 or helm3) does not change the name of the

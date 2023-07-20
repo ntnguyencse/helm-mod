@@ -16,7 +16,7 @@ limitations under the License.
 package release
 
 import (
-	"helm.sh/helm/v3/pkg/time"
+	"github.com/ntnguyencse/helm/pkg/time"
 )
 
 // Info describes release information.

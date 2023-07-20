@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package main
+package helm
 
 import (
 	"bytes"
@@ -28,15 +28,15 @@ import (
 	shellwords "github.com/mattn/go-shellwords"
 	"github.com/spf13/cobra"
 
-	"helm.sh/helm/v3/internal/test"
-	"helm.sh/helm/v3/pkg/action"
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/cli"
-	kubefake "helm.sh/helm/v3/pkg/kube/fake"
-	"helm.sh/helm/v3/pkg/release"
-	"helm.sh/helm/v3/pkg/storage"
-	"helm.sh/helm/v3/pkg/storage/driver"
-	"helm.sh/helm/v3/pkg/time"
+	"github.com/ntnguyencse/helm/internal/test"
+	"github.com/ntnguyencse/helm/pkg/action"
+	"github.com/ntnguyencse/helm/pkg/chartutil"
+	"github.com/ntnguyencse/helm/pkg/cli"
+	kubefake "github.com/ntnguyencse/helm/pkg/kube/fake"
+	"github.com/ntnguyencse/helm/pkg/release"
+	"github.com/ntnguyencse/helm/pkg/storage"
+	"github.com/ntnguyencse/helm/pkg/storage/driver"
+	"github.com/ntnguyencse/helm/pkg/time"
 )
 
 func testTimestamper() time.Time { return time.Unix(242085845, 0).UTC() }
@@ -169,8 +169,8 @@ func TestPluginExitCode(t *testing.T) {
 	if os.Getenv("RUN_MAIN_FOR_TESTING") == "1" {
 		os.Args = []string{"helm", "exitwith", "2"}
 
-		// We DO call helm's main() here. So this looks like a normal `helm` process.
-		main()
+		// We DO call helm's test_main() here. So this looks like a normal `helm` process.
+		test_main()
 
 		// As main calls os.Exit, we never reach this line.
 		// But the test called this block of code catches and verifies the exit code.
@@ -181,7 +181,7 @@ func TestPluginExitCode(t *testing.T) {
 	// tests until this is fixed
 	if runtime.GOOS != "windows" {
 		// Do a second run of this specific test(TestPluginExitCode) with RUN_MAIN_FOR_TESTING=1 set,
-		// So that the second run is able to run main() and this first run can verify the exit status returned by that.
+		// So that the second run is able to run test_main() and this first run can verify the exit status returned by that.
 		//
 		// This technique originates from https://talks.golang.org/2014/testing.slide#23.
 		cmd := exec.Command(os.Args[0], "-test.run=TestPluginExitCode")

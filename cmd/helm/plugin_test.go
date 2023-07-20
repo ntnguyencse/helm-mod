@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package main
+package helm
 
 import (
 	"bytes"
@@ -26,7 +26,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"helm.sh/helm/v3/pkg/release"
+	"github.com/ntnguyencse/helm/pkg/release"
 )
 
 func TestManuallyProcessArgs(t *testing.T) {

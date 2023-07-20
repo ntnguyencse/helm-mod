@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package main
+package helm
 
 import (
 	"fmt"
@@ -22,13 +22,13 @@ import (
 	"strings"
 	"testing"
 
-	"helm.sh/helm/v3/internal/test/ensure"
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/helmpath"
-	"helm.sh/helm/v3/pkg/provenance"
-	"helm.sh/helm/v3/pkg/repo"
-	"helm.sh/helm/v3/pkg/repo/repotest"
+	"github.com/ntnguyencse/helm/internal/test/ensure"
+	"github.com/ntnguyencse/helm/pkg/chart"
+	"github.com/ntnguyencse/helm/pkg/chartutil"
+	"github.com/ntnguyencse/helm/pkg/helmpath"
+	"github.com/ntnguyencse/helm/pkg/provenance"
+	"github.com/ntnguyencse/helm/pkg/repo"
+	"github.com/ntnguyencse/helm/pkg/repo/repotest"
 )
 
 func TestDependencyUpdateCmd(t *testing.T) {

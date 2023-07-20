@@ -20,7 +20,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"helm.sh/helm/v3/pkg/chart"
+	"github.com/ntnguyencse/helm/pkg/chart"
 )
 
 func TestValidateAgainstSingleSchema(t *testing.T) {

@@ -14,7 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-/*Package search provides client-side repository searching.
+/*
+Package search provides client-side repository searching.
 
 This supports building an in-memory search index based on the contents of
 multiple repositories, and then using string matching or regular expressions
@@ -30,7 +31,7 @@ import (
 
 	"github.com/Masterminds/semver/v3"
 
-	"helm.sh/helm/v3/pkg/repo"
+	"github.com/ntnguyencse/helm/pkg/repo"
 )
 
 // Result is a search result.

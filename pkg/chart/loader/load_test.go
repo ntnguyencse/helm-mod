@@ -30,7 +30,7 @@ import (
 	"testing"
 	"time"
 
-	"helm.sh/helm/v3/pkg/chart"
+	"github.com/ntnguyencse/helm/pkg/chart"
 )
 
 func TestLoadDir(t *testing.T) {

@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package main
+package helm
 
 import (
 	"context"
@@ -30,15 +30,15 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"helm.sh/helm/v3/cmd/helm/require"
-	"helm.sh/helm/v3/pkg/action"
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chart/loader"
-	"helm.sh/helm/v3/pkg/cli/output"
-	"helm.sh/helm/v3/pkg/cli/values"
-	"helm.sh/helm/v3/pkg/downloader"
-	"helm.sh/helm/v3/pkg/getter"
-	"helm.sh/helm/v3/pkg/release"
+	"github.com/ntnguyencse/helm/cmd/helm/require"
+	"github.com/ntnguyencse/helm/pkg/action"
+	"github.com/ntnguyencse/helm/pkg/chart"
+	"github.com/ntnguyencse/helm/pkg/chart/loader"
+	"github.com/ntnguyencse/helm/pkg/cli/output"
+	"github.com/ntnguyencse/helm/pkg/cli/values"
+	"github.com/ntnguyencse/helm/pkg/downloader"
+	"github.com/ntnguyencse/helm/pkg/getter"
+	"github.com/ntnguyencse/helm/pkg/release"
 )
 
 const installDesc = `

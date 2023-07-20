@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package main
+package helm
 
 import (
 	"fmt"
@@ -28,7 +28,7 @@ import (
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 
-	"helm.sh/helm/v3/cmd/helm/require"
+	"github.com/ntnguyencse/helm/cmd/helm/require"
 )
 
 const docsDesc = `

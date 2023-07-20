@@ -31,8 +31,8 @@ import (
 	"golang.org/x/crypto/openpgp/packet"    //nolint
 	"sigs.k8s.io/yaml"
 
-	hapi "helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chart/loader"
+	hapi "github.com/ntnguyencse/helm/pkg/chart"
+	"github.com/ntnguyencse/helm/pkg/chart/loader"
 )
 
 var defaultPGPConfig = packet.Config{
@@ -42,9 +42,13 @@ var defaultPGPConfig = packet.Config{
 // SumCollection represents a collection of file and image checksums.
 //
 // Files are of the form:
+//
 //	FILENAME: "sha256:SUM"
+//
 // Images are of the form:
+//
 //	"IMAGE:TAG": "sha256:SUM"
+//
 // Docker optionally supports sha512, and if this is the case, the hash marker
 // will be 'sha512' instead of 'sha256'.
 type SumCollection struct {

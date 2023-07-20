@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package main
+package helm
 
 import (
 	"bytes"
@@ -23,8 +23,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"helm.sh/helm/v3/internal/test/ensure"
-	"helm.sh/helm/v3/pkg/repo"
+	"github.com/ntnguyencse/helm/internal/test/ensure"
+	"github.com/ntnguyencse/helm/pkg/repo"
 )
 
 func TestRepoIndexCmd(t *testing.T) {

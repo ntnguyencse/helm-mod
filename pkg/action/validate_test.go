@@ -19,7 +19,7 @@ package action
 import (
 	"testing"
 
-	"helm.sh/helm/v3/pkg/kube"
+	"github.com/ntnguyencse/helm/pkg/kube"
 
 	appsv1 "k8s.io/api/apps/v1"
 
