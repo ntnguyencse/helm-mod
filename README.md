@@ -6,6 +6,17 @@
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/3131/badge)](https://bestpractices.coreinfrastructure.org/projects/3131)
 
 Helm is a tool for managing Charts. Charts are packages of pre-configured Kubernetes resources.
+Helm-mod is a Go package for using Helm in GO code.
+
+## If error with GO
+
+### open /home/ubuntu/.docker/config.json: permission denied
+
+
+" sudo chown "ubuntu":"ubuntu" /home/"ubuntu"/.docker -R
+sudo chmod g+rwx "/home/ubuntu/.docker" -R"
+
+Replace ubuntu by your user
 
 Use Helm to:
 
