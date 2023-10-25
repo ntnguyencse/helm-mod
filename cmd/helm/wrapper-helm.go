@@ -56,6 +56,10 @@ func ApplyHelmWrapper(kubeconfig string, chartpath string, debugFlag bool, dryRu
 	})
 	fmt.Println("Created root cmd")
 	cmd, err := newRootCmd(actionConfig, outbuff, helmArgs)
+	if err != nil {
+		warning("%+v", err)
+		log.Println(err, "Error: Error when create newRootCmd")
+	}
 	// cmd.Flags().StringVar(&kubeconfig, "kubeconfig", "", "path to the kubeconfig file")
 	// Create Install flag
 	fmt.Println("Created install cmd")
@@ -75,19 +79,15 @@ func ApplyHelmWrapper(kubeconfig string, chartpath string, debugFlag bool, dryRu
 	// installFlags.
 	// addInstallFlags(installCmd, installFlags, actionInstall, &installOption)
 	// Add Helm install command
+	fmt.Println("Add installcmd to root cmd")
 	cmd.AddCommand(installCmd)
-
-	if err != nil {
-		warning("%+v", err)
-		log.Println(err, "Error: Error when create newRootCmd")
-	}
 
 	// run when each command's execute method is called
 
 	cmd.SetArgs(helmArgs)
 	// installCmd.SetArgs(helmArgs)
-	cmd.DebugFlags()
-	installCmd.DebugFlags()
+	// cmd.DebugFlags()
+	// installCmd.DebugFlags()
 	if err := cmd.Execute(); err != nil {
 		fmt.Println("Error when execute")
 		debug("%+v", err)
