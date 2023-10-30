@@ -1,0 +1,28 @@
+run:
+  timeout: 10m
+
+linters:
+  disable-all: true
+  enable:
+    - deadcode
+    - dupl
+    - gofmt
+    - goimports
+    - gosimple
+    - govet
+    - ineffassign
+    - misspell
+    - nakedret
+    - revive
+    - structcheck
+    - unused
+    - varcheck
+    - staticcheck
+
+linters-settings:
+  gofmt:
+    simplify: true
+  goimports:
+    local-prefixes: github.com/ntnguyencse/helm-mod
+  dupl:
+    threshold: 400
